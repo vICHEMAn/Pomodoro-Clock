@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta content="text/html" charset="utf-8" />
+  <title>Pomodoro Clock</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="container" id="container">
+    <div class="body">
+      <div class="pomodoro">
+
+        <div class="colorsBluePink" id="window">
+          <p id="timer">25:00</p>
+          <div class="row">
+            <button class="buttons-window colorsBluePink" id="start">START</button>
+            <button class="buttons-window colorsBluePink" id="resume">RESUME</button>
+            <button class="buttons-window colorsBluePink" id="pause">PAUSE</button>
+            <button class="buttons-window colorsBluePink" id="reset">RESET</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <p class="option textColorBlue" id="breakTitle">BREAK</p>
+          <p class="counter textColorBlue" id="break">5</p>
+          <button class="box-button colorPinkBlue" id="break-minus">-</button>
+          <button class="box-button plus colorsBluePink" id="break-plus">+</button>
+        </div>
+        <div class="row bottom-row">
+          <p class="option textColorBlue" id="sessionTitle">SESSION</p>
+          <p class="counter textColorBlue" id="session">25</p>
+          <button class="box-button colorPinkBlue" id="session-minus">-</button>
+          <button class="box-button plus colorsBluePink" id="session-plus">+</button>
+        </div>
+      </div>
+      <footer>
+        <p>POMODORO CLOCK</p>
+        <p>BY <a href="https://www.instagram.com/vicheman/">VICHEMAN</a></p>
+      </footer>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

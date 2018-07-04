@@ -1,0 +1,171 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  background-color: #F6CAC9;
+
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body {
+  width: 280px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  width: 100%;
+  margin-top: -12px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  color: white;
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #91A7D0;
+}
+
+  .pomodoro {
+    margin: 0 auto;
+    padding: 16px 16px 24px 16px;
+    box-sizing: border-box;
+
+    width: 280px;
+    height: 396px;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+    #window {
+      min-width: 248px;
+      min-height: 248px;
+
+      margin-bottom: 32px;
+      padding: 8px;
+      box-sizing: border-box;
+
+      display: flex;
+      flex-direction: column;
+    }
+
+      #timer {
+        margin: auto;
+
+        font-size: 54px;
+        font-weight: 900;
+      }
+
+      .buttons-window {
+        font-size: 16px;
+        font-weight: bold;
+
+        border: none;
+      }
+
+      .buttons-window:focus {
+        outline: none;
+      }
+
+      .buttons-window:hover {
+        opacity: 0.7;
+      }
+      
+      #pause {
+        display: none;
+      }
+
+      #resume {
+        display: none;
+      }
+
+  .bottom-row {
+    margin-top: 16px;
+  }
+
+  .option {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 0 8px;
+    padding-top: 3px;
+
+    flex-basis: 80%;
+  }
+
+  .counter {
+    font-size: 28px;
+    font-weight: 900;
+    margin: 0 8px 0 0;
+    padding-top: 3px;
+  }
+
+  .box-button {
+    min-width: 30px;
+    min-height: 30px;
+    padding: 5px 5px 10px 5px;
+    box-sizing: border-box;
+
+    border: none;
+
+    font-size: 28px;
+    line-height: 0;
+  }
+
+  .box-button:focus {
+    outline: none;
+  }
+
+  .box-button:hover {
+    opacity: 0.7;
+  }
+
+  .minus {
+  }
+
+  .plus {
+    margin-right: 8px;
+  }
+
+/* ----- color pack ----- */
+
+.colorsBluePink {
+  background-color: #F6CAC9;
+  color: #91A7D0;
+}
+
+.colorPinkBlue {
+  background-color: #91A7D0;
+  color: #F6CAC9;
+}
+
+.textColorPink {
+  color: #F6CAC9;
+}
+
+.textColorBlue {
+  color: #91A7D0;
+}
