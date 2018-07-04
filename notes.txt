@@ -1,7 +1,0 @@
-
-
-
-when I press start the timer begins to countdown.
-  the start innerHTML changes to PAUSE
-  when I press PAUSE the timer pauses and the innerHTML changes to START
-  when I press START the timer resumes
